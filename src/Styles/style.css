@@ -1,0 +1,92 @@
+/* Normalize CSS */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Styles */
+.text-color {
+    color: #93bf20;
+}
+
+.footer {
+    background-color: #203a49;
+    padding: 20px;
+    /* Add padding to footer */
+}
+
+.hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+.magog-image-container {
+    margin: 1rem;
+}
+
+.magog-image {
+    background-image: url("../Magog.jpg");
+    min-height: 32vh;
+    min-width: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 47%;
+}
+
+.btn {
+    background-color: #93bf20;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    box-shadow: 0 2px 4px 0 black;
+    
+}
+
+.btn:hover {
+    background-color: #3e5b07cb;
+}
+.btn:active {
+    background-color: #3e5b07cb;
+}
+
+.link-text {
+    color: #086f5f;
+}
+
+.website-color {
+    color: #527104;
+}
+
+.post-hr {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid rgb(20, 48, 17);
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .website-url {
+        word-wrap: break-word;
+    }
+
+    .footer {
+        padding: 10px;
+        /* Adjust footer padding for smaller screens */
+    }
+}
