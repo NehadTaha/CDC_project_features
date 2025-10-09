@@ -129,7 +129,7 @@ const ServicePosts = ({ filters }) => {
                             <span className="icon">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} />
                             </span>
-                            <span className="fs-6 fw-bold">Address: </span>
+                            <span className="fs-6 fw-bold">Addresse: </span>
                             <a
                                 className="link-text address-url"
                                 href={`https://www.google.com/maps/search/?api=1&query=${post.address}`}
@@ -145,7 +145,7 @@ const ServicePosts = ({ filters }) => {
                             <span className="icon">
                                 <FontAwesomeIcon icon={faPhone} />
                             </span>
-                            <span className="fs-6 fw-bold">Phone: </span>
+                            <span className="fs-6 fw-bold">Téléphone: </span>
                             {post.phoneNumber}
                         </p>
                     )}
@@ -154,7 +154,7 @@ const ServicePosts = ({ filters }) => {
                             <span className="icon">
                                 <FontAwesomeIcon icon={faGlobe} />
                             </span>
-                            <span className="fs-6 fw-bold">Website: </span>
+                            <span className="fs-6 fw-bold">Site web: </span>
                             <a
                                 className="fs-6 website-color website-url"
                                 href={post.website}
