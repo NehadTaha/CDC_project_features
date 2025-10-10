@@ -129,7 +129,7 @@ const ServicePosts = ({ filters }) => {
                             <span className="icon">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} />
                             </span>
-                            <span className="fs-6 fw-bold">Addresse: </span>
+                            <span className="fs-6 fw-bold">Adresse: </span>
                             <a
                                 className="link-text address-url"
                                 href={`https://www.google.com/maps/search/?api=1&query=${post.address}`}
