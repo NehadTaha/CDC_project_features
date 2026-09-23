@@ -16,6 +16,7 @@ root.render(
         <Route path="/" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
+    <SpeedInsights />
   </React.StrictMode>
 );
 
